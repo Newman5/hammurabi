@@ -10,7 +10,7 @@ var year = 1;
 function playYear() {
   // Ask player how much land to buy
   var landToBuy = parseInt(prompt("How much land do you wish to buy (1 acre for "+ landPrice +" bushels)?"));
-  
+  console.log('word.  its working);
   // Check if player has enough food to buy land
   if (landToBuy * landPrice > food) {
     alert("You do not have enough food to buy that much land.");
